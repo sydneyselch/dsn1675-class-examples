@@ -1,0 +1,42 @@
+.nav {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    background-color: #ccc;
+}
+
+.nav li {
+    border-top: 1px solid #666;
+}
+
+.nav a {
+    display:block;
+    padding:0.5em 0.75em;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:20em) {
+ 
+    .nav li {
+        display:inline-block;
+        border:none;
+    }
+    
+    .nav {
+        text-align: center;
+    
+}
+    
+    
+@media only screen and (min-width:40em) {
+        
+        .nav {
+            float:left;
+            width: 30%;
+        }
+    
+        .nav li{
+            display: block;
+            border-top: 1px solid #666;
+        }
+    }
