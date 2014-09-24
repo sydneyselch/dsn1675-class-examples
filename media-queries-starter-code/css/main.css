@@ -84,7 +84,7 @@ figcaption {
 
 @media only screen and (min-width:50em) {
 
-    .dino-primary {
+    .dino-primary{
         float: left;
         width:33.3333%;
     }
